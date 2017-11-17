@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Prj-Demo</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_speech">SpeechActivity</string>
+    <string name="title_activity_gesture">GestureActivity</string>
+    <string name="title_activity_face">FaceActivity</string>
+    <color name="load_text_color">#ffffffff</color>
+    <string name="title_activity_verify_face_actibity">VerifyFaceActibity</string>
+    <!--開始複製-->
+    <!-- 设置  ->手势密码 -->
+    <string name="setting_gesture_pwd_title">手势密码锁定</string>
+    <string name="setting_gesture_pwd_create">创建手势密码</string>
+    <string name="setting_gesture_pwd_validate_title">验证手势密码</string>
+    <string name="setting_gesture_pwd_drawing">绘制解锁密码</string>
+    <string name="setting_gesture_pwd_drawing_again">请再次绘制解锁密码</string>
+    <string name="setting_gesture_pwd_drawing_inconsistent">与上一次绘制不一致,请重新绘制</string>
+    <string name="setting_gesture_pwd_drawing_success">绘制成功</string>
+    <string name="setting_gesture_pwd_number">最少连接四个点,请重新输入</string>
+    <string name="setting_gesture_pwd_validate">请输入原手势密码</string>
+    <string name="setting_gesture_pwd_validate_error">密码错误</string>
+    <string name="setting_gesture_pwd_forget">忘记密码</string>
+</resources>

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/blue/Downloads/Prj-Demo-UI/E:\\codeTry\\Prj-Demo\\facepp_ui_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\loading_layout.xml",
+        "source": "/Users/blue/Downloads/Prj-Demo-UI/E:\\codeTry\\Prj-Demo\\facepp_ui_library\\build\\intermediates\\bundles\\debug\\res\\layout\\loading_layout.xml"
+    },
+    {
+        "merged": "/Users/blue/Downloads/Prj-Demo-UI/E:\\codeTry\\Prj-Demo\\facepp_ui_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\picture_item.xml",
+        "source": "/Users/blue/Downloads/Prj-Demo-UI/E:\\codeTry\\Prj-Demo\\facepp_ui_library\\build\\intermediates\\bundles\\debug\\res\\layout\\picture_item.xml"
+    },
+    {
+        "merged": "/Users/blue/Downloads/Prj-Demo-UI/facepp_ui_library/build/intermediates/res/merged/androidTest/debug/layout/picture_layout.xml",
+        "source": "/Users/blue/Downloads/Prj-Demo-UI/facepp_ui_library/build/intermediates/bundles/debug/res/layout/picture_layout.xml"
+    },
+    {
+        "merged": "/Users/blue/Downloads/Prj-Demo-UI/E:\\codeTry\\Prj-Demo\\facepp_ui_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_opengl.xml",
+        "source": "/Users/blue/Downloads/Prj-Demo-UI/E:\\codeTry\\Prj-Demo\\facepp_ui_library\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_opengl.xml"
+    },
+    {
+        "merged": "/Users/blue/Downloads/Prj-Demo-UI/facepp_ui_library/build/intermediates/res/merged/androidTest/debug/layout/activity_opengl.xml",
+        "source": "/Users/blue/Downloads/Prj-Demo-UI/facepp_ui_library/build/intermediates/bundles/debug/res/layout/activity_opengl.xml"
+    },
+    {
+        "merged": "/Users/blue/Downloads/Prj-Demo-UI/facepp_ui_library/build/intermediates/res/merged/androidTest/debug/layout/loading_layout.xml",
+        "source": "/Users/blue/Downloads/Prj-Demo-UI/facepp_ui_library/build/intermediates/bundles/debug/res/layout/loading_layout.xml"
+    },
+    {
+        "merged": "/Users/blue/Downloads/Prj-Demo-UI/facepp_ui_library/build/intermediates/res/merged/androidTest/debug/layout/picture_item.xml",
+        "source": "/Users/blue/Downloads/Prj-Demo-UI/facepp_ui_library/build/intermediates/bundles/debug/res/layout/picture_item.xml"
+    },
+    {
+        "merged": "/Users/blue/Downloads/Prj-Demo-UI/E:\\codeTry\\Prj-Demo\\facepp_ui_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\picture_layout.xml",
+        "source": "/Users/blue/Downloads/Prj-Demo-UI/E:\\codeTry\\Prj-Demo\\facepp_ui_library\\build\\intermediates\\bundles\\debug\\res\\layout\\picture_layout.xml"
+    },
+    {
+        "merged": "/Users/blue/Downloads/Prj-Demo-UI/E:\\codeTry\\Prj-Demo\\facepp_ui_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\cameralist_item.xml",
+        "source": "/Users/blue/Downloads/Prj-Demo-UI/E:\\codeTry\\Prj-Demo\\facepp_ui_library\\build\\intermediates\\bundles\\debug\\res\\layout\\cameralist_item.xml"
+    },
+    {
+        "merged": "/Users/blue/Downloads/Prj-Demo-UI/facepp_ui_library/build/intermediates/res/merged/androidTest/debug/layout/cameralist_item.xml",
+        "source": "/Users/blue/Downloads/Prj-Demo-UI/facepp_ui_library/build/intermediates/bundles/debug/res/layout/cameralist_item.xml"
+    }
+]

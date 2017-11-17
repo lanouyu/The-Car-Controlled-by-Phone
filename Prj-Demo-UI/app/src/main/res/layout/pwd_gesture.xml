@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pwdActivity"
+    android:orientation="vertical" >
+    <!--手勢解鎖部分-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/activity_gray_bg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:id="@+id/gesture_pwd_iv_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:showDividers="middle"
+                android:divider="@drawable/setting_gesture_pwd_spacing_medium"
+                android:layout_marginTop="@dimen/setting_gesture_pwd_spacing_medium"></LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:showDividers="middle"
+                android:divider="@drawable/setting_gesture_pwd_spacing_medium"
+                android:layout_marginTop="@dimen/setting_gesture_pwd_spacing_medium"></LinearLayout>
+        </LinearLayout>
+        <!--畫手勢的地方-->
+
+        <!--下面的路徑需要修改到GesturePwdView.java的位置才能正常使用-->
+        <com.example.gcls.prj_demo.GesturePwdView
+            android:id="@+id/setting_gesture_pwd_gesture_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="54dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/setting_gesture_pwd_tips_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_gesture_pwd_drawing"
+            android:textColor="@color/bottom_bar_icon_gray"
+            android:textSize="@dimen/activity_word_text_16"
+            android:layout_above="@+id/setting_gesture_pwd_gesture_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="13dp" />
+        <!--進度條-->
+        <!--下面的路徑需要修改到GesturePwdView.java的位置才能正常使用-->
+
+    </RelativeLayout>
+</LinearLayout>

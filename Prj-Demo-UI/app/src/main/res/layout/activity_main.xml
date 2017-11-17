@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gcls.prj_demo.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView2"
+        android:background="@drawable/loading_background" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="蓝牙连接"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnBtConnect"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:background="@android:drawable/title_bar" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.69">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/testText"
+                android:layout_alignBaseline="@+id/text2"
+                android:layout_alignBottom="@+id/text2"
+                android:layout_toLeftOf="@+id/btnBtConnect"
+                android:layout_toStartOf="@+id/btnBtConnect"
+                android:layout_marginRight="17dp"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World!"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/pswBtn"
+                android:layout_toEndOf="@+id/pswBtn" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text = "3C project!"
+                android:layout_below="@+id/info"
+                android:layout_toRightOf="@+id/pswBtn"
+                android:layout_toEndOf="@+id/pswBtn" />
+        </LinearLayout>
+
+        <Button
+            android:text="设置密码"
+            android:id="@+id/pswBtn"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="50dp"
+            android:layout_width="55dp"
+            android:background="@android:drawable/title_bar"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/text2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.18">
+
+            <Button
+                android:text="语音模式"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnVideo"
+                android:layout_alignLeft="@+id/btnVideo"
+                android:layout_alignStart="@+id/btnVideo"
+                android:id="@+id/btnSpeech"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="重力模式"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btngravity"
+                android:layout_alignBaseline="@+id/btnVideo"
+                android:layout_alignBottom="@+id/btnVideo"
+                android:layout_toRightOf="@+id/btnVideo"
+                android:layout_toEndOf="@+id/btnVideo"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.18">
+
+            <Button
+                android:text="手势模式"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnGesture"
+                android:layout_below="@+id/btngravity"
+                android:layout_toRightOf="@+id/btnVideo"
+                android:layout_toEndOf="@+id/btnVideo"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="人脸检测"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnFace"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@+id/btnSpeech"
+                android:layout_alignStart="@+id/btnSpeech"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.18">
+
+            <Button
+                android:text="视频传输"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnVideo"
+                android:layout_below="@+id/btngravity"
+                android:layout_toRightOf="@+id/btnVideo"
+                android:layout_toEndOf="@+id/btnVideo"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="路径追踪"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPath"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@+id/btnSpeech"
+                android:layout_alignStart="@+id/btnSpeech"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="停"
+            android:layout_width="60dp"
+            android:id="@+id/stopBtn"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="60dp" />
+
+        <Button
+            android:text="前"
+            android:layout_height="wrap_content"
+            android:id="@+id/forward"
+            android:layout_width="60dp"
+            android:layout_above="@+id/stopBtn"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="后"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Backward"
+            android:layout_weight="1"
+            android:layout_below="@+id/stopBtn"
+            android:layout_alignLeft="@+id/forward"
+            android:layout_alignStart="@+id/forward" />
+
+        <Button
+            android:text="右"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/Right"
+            android:layout_weight="1"
+            android:layout_below="@+id/forward"
+            android:layout_toRightOf="@+id/stopBtn"
+            android:layout_toEndOf="@+id/stopBtn" />
+
+        <Button
+            android:text="左"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/Left"
+            android:layout_weight="1"
+            android:layout_below="@+id/forward"
+            android:layout_toLeftOf="@+id/stopBtn"
+            android:layout_toStartOf="@+id/stopBtn" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
